@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Title</title>
+    <title>Learn To Code!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -14,7 +14,7 @@
     <!--[if IE]><script type="text/javascript" src="js/excanvas.js"></script><![endif]-->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>	
 	<script type="text/javascript" src="js/fabric.js"></script>
-	<script type="text/javascript" src="js/caseEditor.js"></script>
+	<script type="text/javascript" src="js/tshirtEditor.js"></script>
 	<script type="text/javascript" src="js/jquery.miniColors.min.js"></script>
 	
     <!-- Le styles -->
@@ -31,8 +31,7 @@
 			background-color: whiteSmoke;
 			}			
 	      body {
-	        padding-top: 60px;
-/*	        background-color: #000000;	        */
+	        padding-top: 60px;	        
 	      }
 	      .color-preview {
 	      	border: 1px solid #CCC;
@@ -82,12 +81,7 @@
          <span class="icon-bar"></span>
          <span class="icon-bar"></span>
        </a>
-       <a class="brand" href="#">Custom Phone Case</a>
-       <div class="nav-collapse" id="main-menu">
-			<ul class="nav" id="main-menu-left">
-				<li><a href="index.html">T-Shirt</a></li>
-			</ul>
-       </div>
+       <a class="brand" href="#">Custom T-Shirt App</a>
      </div>
    </div>
  </div>
@@ -95,7 +89,16 @@
     <div class="container">
 		<section id="typography">
 		  <div class="page-header">
-		    <h1>iPhone Case</h1>
+<!-- TITLE -->		  
+		    <h1>
+		       	<a style="text-decoration:none; border:0px;" target="_blank" href="http://www.nielsen.com/us/en/about-us/corporate-responsibility/nielsen-cares.html">
+		       		<img class="img-rounded" style="padding-right: 25px;" src="img/nielsen_logo.png">
+		       	</a>
+		       	<a style="text-decoration:none; border:0px;" target="_blank" href="http://www.girlscouts.org/">
+		       		<img class="img-rounded" style="padding-right: 105px;" src="img/girl_scouts_logo.png">
+		       	</a>
+		T-Shirt Shop
+		    </h1>
 		  </div>
 		
 		  <!-- Headings & Paragraph Copy -->
@@ -104,63 +107,91 @@
 		    	
 		    	<div class="tabbable"> <!-- Only required for left/right tabs -->
 				  <ul class="nav nav-tabs">
-				  	<li class="active"><a href="#tab1" data-toggle="tab">Case Options</a></li>				    
-				    <li><a href="#tab2" data-toggle="tab">Design and Text</a></li>
+				  	<li class="active"><a href="#tab1" data-toggle="tab">Choose Colors</a></li>				    
+				    <li><a href="#tab2" data-toggle="tab">Choose Pictures</a></li>
 				  </ul>
 				  <div class="tab-content">
 				     <div class="tab-pane active" id="tab1">
 				     	<div class="well">
-<!--					      	<h3>Tee Styles</h3>-->
-<!--						      <p>-->
-						      	<select id="phoneTypes">                        
-				                    <option value="1" selected="selected">iPhone 5</option>
-				                    <option value="2">iPhone 4</option>				                                     
-				                    <option value="3">Samsumg III</option>
-								</select>				
-<!--						      </p>-->								
-					      </div>
-					      <div class="well">
 							<ul class="nav">
+<!-- COLORS -->
+								<!-- white -->
 								<li class="color-preview" title="White" style="background-color:#ffffff;"></li>
-								<li class="color-preview" title="Dark Heather" style="background-color:#616161;"></li>
-								<li class="color-preview" title="Gray" style="background-color:#f0f0f0;"></li>
-								<li class="color-preview" title="Charcoal" style="background-color:#5b5b5b;"></li>
-								<li class="color-preview" title="Black" style="background-color:#222222;"></li>
-								<li class="color-preview" title="Heather Orange" style="background-color:#fc8d74;"></li>
-								<li class="color-preview" title="Heather Dark Chocolate" style="background-color:#432d26;"></li>
-								<li class="color-preview" title="Salmon" style="background-color:#eead91;"></li>
-								<li class="color-preview" title="Chesnut" style="background-color:#806355;"></li>
-								<li class="color-preview" title="Dark Chocolate" style="background-color:#382d21;"></li>
-								<li class="color-preview" title="Citrus Yellow" style="background-color:#faef93;"></li>
-								<li class="color-preview" title="Avocado" style="background-color:#aeba5e;"></li>
-								<li class="color-preview" title="Kiwi" style="background-color:#8aa140;"></li>
-								<li class="color-preview" title="Irish Green" style="background-color:#1f6522;"></li>
-								<li class="color-preview" title="Scrub Green" style="background-color:#13afa2;"></li>
-								<li class="color-preview" title="Teal Ice" style="background-color:#b8d5d7;"></li>
-								<li class="color-preview" title="Heather Sapphire" style="background-color:#15aeda;"></li>
-								<li class="color-preview" title="Sky" style="background-color:#a5def8;"></li>
-								<li class="color-preview" title="Antique Sapphire" style="background-color:#0f77c0;"></li>
-								<li class="color-preview" title="Heather Navy" style="background-color:#3469b7;"></li>							
-								<li class="color-preview" title="Cherry Red" style="background-color:#c50404;"></li>
+								<li class="color-preview" title="Antique White" style="background-color:#faebd7;"></li>
+								<li class="color-preview" title="Misty Rose" style="background-color:#ffe4e1;"></li>
+								<!-- red -->
+								<li class="color-preview" title="Pink" style="background-color:#ffc0cb;"></li>
+								<li class="color-preview" title="Hot Pink" style="background-color:#ff69b4;"></li>
+								<li class="color-preview" title="Deep Pink" style="background-color:#ff1493;"></li>
+								<li class="color-preview" title="Salmon" style="background-color:#fa8072;"></li>
+								<li class="color-preview" title="Coral" style="background-color:#f08080;"></li>
+								<li class="color-preview" title="Crimson" style="background-color:#dc143c;"></li>
+								<li class="color-preview" title="Red" style="background-color:#ff0000;"></li>
+								<li class="color-preview" title="Dark Red" style="background-color:#8b0000;"></li>
+								<!-- orange -->
+								<li class="color-preview" title="Orange Red" style="background-color:#ff4500;"></li>
+								<li class="color-preview" title="Orange" style="background-color:#ff8500;"></li>
+								<li class="color-preview" title="Dark Orange" style="background-color:#ff8c00;"></li>
+								<!-- yellow -->
+								<li class="color-preview" title="Yellow" style="background-color:#ffff00;"></li>
+								<li class="color-preview" title="Khaki" style="background-color:#f0e68c;"></li>
+								<li class="color-preview" title="Dark Khaki" style="background-color:#bdb76b;"></li>
+								<li class="color-preview" title="Gold" style="background-color:#ffd700;"></li>
+								<li class="color-preview" title="Goldenrod" style="background-color:#da8520;"></li>
+								<li class="color-preview" title="Dark Goldenrod" style="background-color:#b8860b;"></li>
+								<li class="color-preview" title="Tan" style="background-color:#d2b48c;"></li>
+								<li class="color-preview" title="Sienna" style="background-color:#a0522d;"></li>
+								<li class="color-preview" title="Saddlebrown" style="background-color:#8b4513;"></li>
+								<!-- green -->
+								<li class="color-preview" title="Spring Green" style="background-color:#00ff7f;"></li>
+								<li class="color-preview" title="Green Yellow" style="background-color:#adff2f;"></li>
+								<li class="color-preview" title="Lime Green" style="background-color:#32cd32;"></li>
+								<li class="color-preview" title="Green" style="background-color:#008000;"></li>
+								<li class="color-preview" title="Medium Sea Green" style="background-color:#3cb371;"></li>
+								<li class="color-preview" title="Sea Green" style="background-color:#2e8b57;"></li>
+								<li class="color-preview" title="Olive" style="background-color:#808000;"></li>
+								<li class="color-preview" title="Dark Green" style="background-color:#006400;"></li>
+								<!-- blue -->
+								<li class="color-preview" title="Aquamarine" style="background-color:#7fffd4;"></li>
+								<li class="color-preview" title="Aqua" style="background-color:#00ffff;"></li>
+								<li class="color-preview" title="Dark Turquiose" style="background-color:#00ced1;"></li>
+								<li class="color-preview" title="Deep Sky Blue" style="background-color:#00bfff;"></li>
+								<li class="color-preview" title="Cornflower Blue" style="background-color:#6495ed;"></li>
+								<li class="color-preview" title="Blue" style="background-color:#0000ff;"></li>
+								<li class="color-preview" title="Navy" style="background-color:#000080;"></li>
+								<li class="color-preview" title="Teal" style="background-color:#008080;"></li>
+								<!-- purple -->
+								<li class="color-preview" title="Lavender" style="background-color:#e6e6fa;"></li>
+								<li class="color-preview" title="Plum" style="background-color:#dda0dd;"></li>
+								<li class="color-preview" title="Medium Orchid" style="background-color:#ba55d3;"></li>
+								<li class="color-preview" title="Blue Violet" style="background-color:#802be2;"></li>
+								<li class="color-preview" title="Dark Violet" style="background-color:#9400d3;"></li>
+								<li class="color-preview" title="Purple" style="background-color:#800080;"></li>
+								<li class="color-preview" title="Indigo" style="background-color:#4b0082;"></li>
+								<!-- black -->
+								<li class="color-preview" title="Silver" style="background-color:#c0c0c0;"></li>
+								<li class="color-preview" title="Gray" style="background-color:#808080;"></li>
+								<li class="color-preview" title="Black" style="background-color:#000000;"></li>
 							</ul>
 						</div>			      
 				     </div>				   
 				    <div class="tab-pane" id="tab2">
-				    	<div class="well" style="height:400px;">
+				    	<div class="well">
 				    		<div class="input-append">
 							  <input class="span2" id="text-string" type="text" placeholder="add text here..."><button id="add-text" class="btn" title="Add text"><i class="icon-share-alt"></i></button>
 							  <hr>
-							  <button class="btn btn-primary">Upload</button>
-							  <hr>
 							</div>
-				    		<img style="cursor:pointer;width:90px;height:120px;" class="img-polaroid" src="img/phones/designs/1.jpg">
-				    		<img style="cursor:pointer;width:90px;height:120px;" class="img-polaroid" src="img/phones/designs/7.jpg">
-			                <img style="cursor:pointer;width:90px;height:120px;" class="img-polaroid" src="img/phones/designs/8.jpg">
-			                <img style="cursor:pointer;width:90px;height:120px;" class="img-polaroid" src="img/phones/designs/2.jpg">
-			                <img style="cursor:pointer;width:90px;height:120px;" class="img-polaroid" src="img/phones/designs/3.jpg">
-			                <img style="cursor:pointer;width:90px;height:120px;" class="img-polaroid" src="img/phones/designs/4.jpg">
-			                <img style="cursor:pointer;width:90px;height:120px;" class="img-polaroid" src="img/phones/designs/5.jpg">
-			                <img style="cursor:pointer;width:90px;height:120px;" class="img-polaroid" src="img/phones/designs/6.jpg">			                
+<!-- PICTURES -->
+							<div id="avatarlist">
+								<img style="cursor:pointer;" class="img-polaroid" src="img/beyonce.jpg">
+				                <img style="cursor:pointer;" class="img-polaroid" src="img/idrisElba.jpg">
+				                <img style="cursor:pointer;" class="img-polaroid" src="img/michelleObama.jpg">
+				                <img style="cursor:pointer;" class="img-polaroid" src="img/zoeSaldana.jpg">
+				                <img style="cursor:pointer;" class="img-polaroid" src="img/taylorSwift.jpg">
+				                <img style="cursor:pointer;" class="img-polaroid" src="img/kerryWashington.jpg">
+				                <img style="cursor:pointer;" class="img-polaroid" src="img/frankOcean.jpg">
+				                <img style="cursor:pointer;" class="img-polaroid" src="img/iggyAzalea.jpg">
+							</div>				    		
 				    	</div>				      
 				    </div>
 				  </div>
@@ -169,7 +200,7 @@
 		    <div class="span6">		    
 		    		<div align="center" style="min-height: 32px;">
 		    			<div class="clearfix">
-							<div class="btn-group inline pull-left" id="texteditor" style="display:none;">							  
+							<div class="btn-group inline pull-left" id="texteditor" style="display:none">						  
 								<button id="font-family" class="btn dropdown-toggle" data-toggle="dropdown" title="Font Style"><i class="icon-font" style="width:19px;height:19px;"></i></button>		                      
 							    <ul class="dropdown-menu" role="menu" aria-labelledby="font-family-X">
 								    <li><a tabindex="-1" href="#" onclick="setFont('Arial');" class="Arial">Arial</a></li>
@@ -195,47 +226,53 @@
 						 		<a class="btn" href="#" rel="tooltip" data-placement="top" data-original-title="Font Border Color"><input type="hidden" id="text-strokecolor" class="color-picker" size="7" value="#000000"></a>
 								  <!--- Background <input type="hidden" id="text-bgcolor" class="color-picker" size="7" value="#ffffff"> --->
 							</div>							  
-							<div class="pull-right" align="" id="imageeditor" style="display:none;">					  
+							<div class="pull-right" align="" id="imageeditor" style="display:none">
 							  <div class="btn-group">										      
 							      <button class="btn" id="bring-to-front" title="Bring to Front"><i class="icon-fast-backward rotate" style="height:19px;"></i></button>
-							      <button class="btn" id="send-to-back" title="Send to Back"><i class="icon-fast-forward rotate" style="height:19px;"></i></button>							      
+							      <button class="btn" id="send-to-back" title="Send to Back"><i class="icon-fast-forward rotate" style="height:19px;"></i></button>
+							      <button id="flip" type="button" class="btn" title="Show Back View"><i class="icon-retweet" style="height:19px;"></i></button>
 							      <button id="remove-selected" class="btn" title="Delete selected item"><i class="icon-trash" style="height:19px;"></i></button>
 							  </div>
 							</div>			  
 						</div>												
 					</div>					  		
-				<!--	EDITOR      -->	
-				<div style="background-color: #ffffff;position: relative; top:20px;height:560px;">				
-					<div id="phoneDiv" class="page" style="width: 282px; height: 590px; position: relative;left:25%; background-color: rgb(255, 255, 255);">
-						<img id="phone" src="img/phones/iphone5A.png"></img>
-						<div id="drawingArea" style="position: absolute;top:70px;left:30px;z-index: 10;width: 230px; height:450px;">					
-							<canvas id="tcanvas" width=230 height="450" class="hover" style="-webkit-user-select: none;"></canvas>
+				<!--	EDITOR      -->					
+					<div id="shirtDiv" class="page" style="width: 530px; height: 630px; position: relative; background-color: rgb(255, 255, 255);">
+						<img id="tshirtFacing" src="img/womens_crew_front.png"></img>
+						<div id="drawingArea" style="position: absolute;top: 100px;left: 160px;z-index: 10;width: 200px;height: 400px;">					
+							<canvas id="tcanvas" width=200 height="400" class="hover" style="-webkit-user-select: none;"></canvas>
 						</div>
-					</div>		
-				</div>					
+					</div>
+<!--					<div id="shirtBack" class="page" style="width: 530px; height: 630px; position: relative; background-color: rgb(255, 255, 255); display:none;">-->
+<!--						<img src="img/womens_crew_back.png"></img>-->
+<!--						<div id="drawingArea" style="position: absolute;top: 100px;left: 160px;z-index: 10;width: 200px;height: 400px;">					-->
+<!--							<canvas id="backCanvas" width=200 height="400" class="hover" style="-webkit-user-select: none;"></canvas>-->
+<!--						</div>-->
+<!--					</div>						-->
+								
 				<!--	/EDITOR		-->
 		    </div>
 		
 		    <div class="span3">
 		      <div class="well">
-		      	<h3>Total Prices</h3>
+		      	<h3>Total Price</h3>
 			      <p>
 			      	<table class="table">
 			      		<tr>
-			      			<td>Phone Case</td>
-			      			<td align="right">$19.99</td>
+			      			<td>Short Sleeve Shirt</td>
+			      			<td align="right">$10.00</td>
 			      		</tr>
 			      		<tr>
-			      			<td>Head Phone</td>
-			      			<td align="right">$4.99</td>
-			      		</tr>			      		
+			      			<td>Sales Tax (7%)</td>
+			      			<td align="right">$0.70</td>
+			      		</tr>
 			      		<tr>
 			      			<td><strong>Total</strong></td>
-			      			<td align="right"><strong>$24.99</strong></td>
+			      			<td align="right"><strong>$10.70</strong></td>
 			      		</tr>
 			      	</table>			
 			      </p>
-					<button type="button" class="btn btn-large btn-block btn-success" name="addToTheBag" id="addToTheBag">Add to bag <i class="icon-briefcase icon-white"></i></button>
+					<button type="button" class="btn btn-large btn-block btn-success" name="addToTheBag" id="addToTheBag">Add to shopping bag <i class="icon-briefcase icon-white"></i></button>
 		      </div>		      		       		   
 		    </div>
 		

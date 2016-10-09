@@ -1,8 +1,9 @@
-CustomTShirt
+TShirtShop
 ============
 
 Simple Custom t-shirt editor using Fabric.js. 
-demo: http://tshirts.imomin.com/
+Original: http://tshirts.imomin.com/
+Modified by: http://kelly-ann.com/
 
 
 The MIT License (MIT)
@@ -27,5 +28,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-NOTE:
-If I accidentally come across your website and ask you about the editor please give me some credit and don't lie claming somebody else's work as yours.
